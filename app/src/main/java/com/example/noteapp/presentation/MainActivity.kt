@@ -1,4 +1,4 @@
-package com.example.noteapp
+package com.example.noteapp.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -35,12 +35,4 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         text = "Hello $name!",
         modifier = modifier
     )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    NoteAppTheme {
-        Greeting("Android")
-    }
 }
